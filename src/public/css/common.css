@@ -1,0 +1,108 @@
+* {
+    font-size: 16px;
+    color: #333;
+}
+
+.app {
+    max-width: 1512px;
+    background-color: #fff;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #CDCDCD;
+    padding: 10px 20px;
+}
+
+.header h1 {
+    margin: 0;
+    width: 125px;
+    font-family: "Lora", serif;
+    font-size: 40px;
+    color: #EC87EF;
+    text-align: justify;
+}
+
+.detail-content, .goal-content, .logs-content {
+    width: 100%;
+    margin: 0;
+    background-color: #F9F9F9;
+    padding: 70px 0;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+
+    padding: 10px;
+    border-radius: 5px;
+    background: #F7F7F7;
+    border: 1px solid #CDCDCD;
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.nav-btn i {
+    font-size: 22px;
+}
+
+.nav-btn:hover {
+    background: #e9e9e9;
+}
+
+button.nav-btn {
+    width: 100%;
+    border: 1px solid #CDCDCD;
+    background: #F7F7F7;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.pagination li:not(.active) {
+    border: none;
+    padding: 4px 12px;
+}
+
+.pagination li:not(:last-child) {
+    border-right: none;
+}
+
+.pagination a {
+    color: #4B4B4B;
+    text-decoration: none;
+}
+
+.pagination__link {
+    text-decoration: none;
+}
+
+.pagination .active {
+    padding: 4px 12px;
+    border: none;
+    background: linear-gradient(90deg, #A3A6E1, #FFABD9);
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.error-message {
+    margin: 5px;
+    color: #F65A5A;
+    font-size: 14px;
+}
+

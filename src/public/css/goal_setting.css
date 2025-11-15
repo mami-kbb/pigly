@@ -1,0 +1,48 @@
+.goal-content__inner {
+    width: 470px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    gap: 50px;
+}
+
+.goal-content__inner h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.weight-form__item-input {
+    width: 400px;
+    height: 43px;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+    padding: 11px 10px;
+    font-size: 14px;
+}
+
+.weight-form__btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #E0DFDE;
+    padding: 13px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.weight-form__btn-submit {
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #A3A6E1, #FFABD9);
+    padding: 13px 10px;
+    color: #fff;
+    border: none;
+}
