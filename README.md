@@ -2,7 +2,7 @@
 
 ## 環境構築
 **Dockerビルド**
-1. `git clone`
+1. `git clone git@github.com:mami-kbb/pigly.git`
 2. DockerDesktopアプリを立ち上げる
 3. `docker-compose up -d --build`
 
@@ -51,6 +51,7 @@ php artisan db:seed
 ## ER図
 ![alt](erd.png)
 
-## URL
-- 開発環境：http://localhost/register/step1
+## 開発環境
+- ユーザー登録：http://localhost/register/step1
+- ログイン：http://localhost/login
 - phpMyAdmin:：http://localhost:8080/
