@@ -51,6 +51,7 @@ php artisan db:seed
 ## ER図
 ![alt](erd.png)
 
-## URL
-- 開発環境：http://localhost/register/step1
+## 開発環境
+- ユーザー登録：http://localhost/register/step1
+- ログイン：http://localhost/login
 - phpMyAdmin:：http://localhost:8080/
