@@ -15,6 +15,17 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        WeightLog::factory(35)->create();
+        $user = User::factory()->create([
+            'password' =>Hash::make('password'),
+        ]);
+
+        WeightTarget::factory()->create([
+            'user_id' => $user->id,
+            'target_weight' => 50,
+        ]);
+
+        WeightLog::factory(35)->create([
+            'user_id' => $user->id,
+        ]);
     }
 }
